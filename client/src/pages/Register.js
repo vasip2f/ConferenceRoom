@@ -20,7 +20,7 @@ function Register() {
       password: password,
     };
     axios
-      .post("https://conference-room-booking-be.onrender.com/user/signup", data)
+      .post("http://localhost:4000/user/signup", data)
       .then((res) => {
         alert("Registration is Success")
         console.log(res);
