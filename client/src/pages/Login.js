@@ -3,7 +3,8 @@ import React, { useState } from "react";
 import Navbar from "./Navbar";
 import '../App.css';
 import { useNavigate } from "react-router-dom";
-import { EyeIcon, EyeOffIcon } from "@heroicons/react"
+import { EyeIcon, EyeOffIcon } from "@heroicons/react/solid";
+
 
 function Login() {
   const [email, setEmail] = useState("");
