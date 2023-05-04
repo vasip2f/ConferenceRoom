@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import Navbar from "./Navbar";
 import '../App.css';
 import { useNavigate } from "react-router-dom";
-import { EyeIcon, EyeOffIcon } from "@heroicons/react/solid";
+import { EyeIcon, EyeOffIcon } from "@fortawesome/free-solid-svg-icons";
 
 
 function Login() {
