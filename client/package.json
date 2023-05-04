@@ -12,6 +12,7 @@
     "@fullcalendar/list": "^6.1.5",
     "@fullcalendar/react": "^6.1.5",
     "@fullcalendar/timegrid": "^6.1.5",
+    "@heroicons/react": "^2.0.17",
     "@react-native-community/masked-view": "^0.1.11",
     "@react-navigation/native": "^6.1.6",
     "@testing-library/jest-dom": "^5.16.4",

@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import Navbar from "./Navbar";
 import '../App.css';
 import { useNavigate } from "react-router-dom";
+import { EyeIcon, EyeOffIcon } from "@heroicons/react"
 
 function Login() {
   const [email, setEmail] = useState("");
@@ -76,13 +77,25 @@ function Login() {
                 placeholder="Enter Your Password"
                 className="border border-zinc-400 outline-none px-6 py-2 text-black w-full"
               />
-              <button
+              {/* <button
                 type="button"
                 onClick={toggleShowPassword}
                 className="absolute top-1/2 right-2 transform -translate-y-1/2"
               >
                 {showPassword ? "Hide" : "Show"}
+              </button> */}
+              <button
+                type="button"
+                onClick={toggleShowPassword}
+                className="absolute top-1/2 right-2 transform -translate-y-1/2"
+              >
+                {showPassword ? (
+                  <EyeOffIcon className="h-5 w-5 text-gray-400" />
+                ) : (
+                  <EyeIcon className="h-5 w-5 text-gray-400" />
+                )}
               </button>
+
             </div>
           </div>
 
