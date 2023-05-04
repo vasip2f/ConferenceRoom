@@ -100,7 +100,7 @@ export default function (props) {
         alert("The slot is already booked");
       } else {
         alert("The slot is already booked");
-        window.location.reload();
+        // window.location.reload();
       }
     }
   }
