@@ -1,7 +1,8 @@
 const mongoose = require("mongoose")
+const dotenv = require("dotenv").config()
 
 
-const MongoUrl = "mongodb+srv://calendar:calendar@calendar.hikmumx.mongodb.net/?retryWrites=true&w=majority"
+const MongoUrl = process.env.MongoUri
 
 
 const InitiateMongoServer = async ()=>{
